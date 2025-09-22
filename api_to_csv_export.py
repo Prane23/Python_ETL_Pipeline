@@ -8,7 +8,7 @@ def extract(api_url):
     response.raise_for_status()
     return response.json()
 
-#tyransform function to transform and merge data
+#trasnform function to transform and merge data
 def trabsform(emp, empdetail):
     try:
         emp_df= pd.DataFrame(emp)
@@ -26,6 +26,7 @@ def trabsform(emp, empdetail):
     except Exception as err :
         print(f'error: {err}')
 
+#load function to export data to csv
 def load(final_df):
     try:
         final_df.to_csv('employee_data.csv', index=False)
