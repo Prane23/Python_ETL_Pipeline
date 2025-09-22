@@ -1,0 +1,16 @@
+{
+  "employmentdetail": {
+    "employeeId": "EMP12345",
+    "companyName": "ABC Inc.",
+    "jobTitle": "Software Engineer",
+    "department": "Engineering",
+    "officeLocation": "San Francisco, CA",
+    "employmentType": "Full-Time",
+    "startDate": "2022-06-15",
+    "manager": "Jane Doe",
+    "skipManager": "John Smith",
+    "status": "Active",
+    "hireDate": "2022-06-15",
+    "skills": ["Python", "Azure", "Power BI", "SQL"]    
+  }
+}
