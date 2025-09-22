@@ -23,8 +23,8 @@ def trabsform(emp, empdetail):
 
 
 
-empployee = 'https://raw.githubusercontent.com/Prane23/Azure-Databrick-Synapse-Analytics_End_to_End/refs/heads/main/employee.json'
-employee_detail= 'https://raw.githubusercontent.com/Prane23/Azure-Databrick-Synapse-Analytics_End_to_End/refs/heads/main/employmentdetail.json'
+empployee = 'https://raw.githubusercontent.com/Prane23/Python_ETL_Pipeline/refs/heads/master/data/employee.json'
+employee_detail= 'https://raw.githubusercontent.com/Prane23/Python_ETL_Pipeline/refs/heads/master/data/employmentdetail.json'
 
 try :
     emp_response= extract(empployee)
