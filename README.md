@@ -34,10 +34,12 @@ Simple and clean ETL structure
 Easy to customize for different APIs
 Outputs data in CSV format
 Uses requests for API calls and pandas for data handling
+
 ## 📁 Folder Structure
 Python_ETL_Pipeline/
 │
 ├── api_to_csv_export.py   # Main ETL script
 └── data/                  # Folder for storing exported CSV files
-🙌 Contributing
+
+## 🙌 Contributing
 Feel free to fork the repo and submit pull requests for improvements or new features.
