@@ -1,0 +1,16 @@
+{
+  "employee": {
+    "employeeId": "EMP12345",
+    "firstName": "Prashant",
+    "lastName": "Rane",
+    "email": "prashant.rane@hotmail.com",
+    "phoneNumber": "+1-100-999-1234",
+    "dateOfBirth": "1990-04-12",
+    "address": {
+      "street": "123 Main St",
+      "city": "Dublin",
+      "state": "CA",
+      "zipCode": "95376"
+    }
+  }
+}
