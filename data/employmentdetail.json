@@ -1,5 +1,5 @@
-{
-  "employmentdetail": {
+[
+    {
     "employeeId": "EMP12345",
     "companyName": "ABC Inc.",
     "jobTitle": "Software Engineer",
@@ -12,5 +12,75 @@
     "status": "Active",
     "hireDate": "2022-06-15",
     "skills": ["Python", "Azure", "Power BI", "SQL"]    
+  },
+  {
+    "employeeId": "EMP12346",
+    "companyName": "ABC Inc.",
+    "jobTitle": "Frontend Developer",
+    "department": "Engineering",
+    "officeLocation": "San Francisco, CA",
+    "employmentType": "Full-Time",
+    "startDate": "2021-03-01",
+    "manager": "Alice Green",
+    "skipManager": "Robert White",
+    "status": "Active",
+    "hireDate": "2021-03-01",
+    "skills": ["JavaScript", "React", "CSS", "HTML"]
+  },
+  {
+    "employeeId": "EMP12347",
+    "companyName": "ABC Inc.",
+    "jobTitle": "Data Analyst",
+    "department": "Analytics",
+    "officeLocation": "San Jose, CA",
+    "employmentType": "Full-Time",
+    "startDate": "2020-08-10",
+    "manager": "Mark Taylor",
+    "skipManager": "Susan Clark",
+    "status": "Active",
+    "hireDate": "2020-08-10",
+    "skills": ["Excel", "SQL", "Tableau", "Python"]
+  },
+  {
+    "employeeId": "EMP12348",
+    "companyName": "ABC Inc.",
+    "jobTitle": "DevOps Engineer",
+    "department": "Infrastructure",
+    "officeLocation": "Oakland, CA",
+    "employmentType": "Full-Time",
+    "startDate": "2019-11-20",
+    "manager": "Tom Harris",
+    "skipManager": "Linda Scott",
+    "status": "Active",
+    "hireDate": "2019-11-20",
+    "skills": ["AWS", "Docker", "Kubernetes", "CI/CD"]
+  },
+  {
+    "employeeId": "EMP12349",
+    "companyName": "ABC Inc.",
+    "jobTitle": "HR Specialist",
+    "department": "Human Resources",
+    "officeLocation": "Fremont, CA",
+    "employmentType": "Part-Time",
+    "startDate": "2023-01-05",
+    "manager": "Nancy Adams",
+    "skipManager": "George King",
+    "status": "Active",
+    "hireDate": "2023-01-05",
+    "skills": ["Recruiting", "Onboarding", "Compliance", "Communication"]
+  },
+  {
+    "employeeId": "EMP12350",
+    "companyName": "ABC Inc.",
+    "jobTitle": "Product Manager",
+    "department": "Product",
+    "officeLocation": "Mountain View, CA",
+    "employmentType": "Full-Time",
+    "startDate": "2022-04-18",
+    "manager": "Rachel Lee",
+    "skipManager": "Kevin Moore",
+    "status": "Active",
+    "hireDate": "2022-04-18",
+    "skills": ["Agile", "Roadmapping", "Stakeholder Management", "JIRA"]
   }
-}
+]
