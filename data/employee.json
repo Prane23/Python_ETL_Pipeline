@@ -1,5 +1,5 @@
-{
-  "employee": {
+[
+  {
     "employeeId": "EMP12345",
     "firstName": "Prashant",
     "lastName": "Rane",
@@ -12,5 +12,75 @@
       "state": "CA",
       "zipCode": "95376"
     }
+  },
+  {
+    "employeeId": "EMP12346",
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith@example.com",
+    "phoneNumber": "+1-101-888-2345",
+    "dateOfBirth": "1985-07-23",
+    "address": {
+      "street": "456 Oak Avenue",
+      "city": "San Ramon",
+      "state": "CA",
+      "zipCode": "94583"
+    }
+  },
+  {
+    "employeeId": "EMP12347",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "email": "emily.johnson@example.com",
+    "phoneNumber": "+1-102-777-3456",
+    "dateOfBirth": "1992-11-05",
+    "address": {
+      "street": "789 Pine Street",
+      "city": "Pleasanton",
+      "state": "CA",
+      "zipCode": "94566"
+    }
+  },
+  {
+    "employeeId": "EMP12348",
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "email": "michael.brown@example.com",
+    "phoneNumber": "+1-103-666-4567",
+    "dateOfBirth": "1988-02-17",
+    "address": {
+      "street": "321 Elm Street",
+      "city": "Livermore",
+      "state": "CA",
+      "zipCode": "94550"
+    }
+  },
+  {
+    "employeeId": "EMP12349",
+    "firstName": "Sarah",
+    "lastName": "Davis",
+    "email": "sarah.davis@example.com",
+    "phoneNumber": "+1-104-555-5678",
+    "dateOfBirth": "1995-09-30",
+    "address": {
+      "street": "654 Maple Drive",
+      "city": "Fremont",
+      "state": "CA",
+      "zipCode": "94538"
+    }
+  },
+  {
+    "employeeId": "EMP12350",
+    "firstName": "David",
+    "lastName": "Wilson",
+    "email": "david.wilson@example.com",
+    "phoneNumber": "+1-105-444-6789",
+    "dateOfBirth": "1991-06-14",
+    "address": {
+      "street": "987 Cedar Lane",
+      "city": "Hayward",
+      "state": "CA",
+      "zipCode": "94541"
+    }
   }
-}
+]
