@@ -1,5 +1,5 @@
 [
-  {
+    {
     "employeeId": "EMP12345",
     "companyName": "ABC Inc.",
     "jobTitle": "Software Engineer",
@@ -67,3 +67,20 @@
     "skipManager": "George King",
     "status": "Active",
     "hireDate": "2023-01-05",
+    "skills": ["Recruiting", "Onboarding", "Compliance", "Communication"]
+  },
+  {
+    "employeeId": "EMP12350",
+    "companyName": "ABC Inc.",
+    "jobTitle": "Product Manager",
+    "department": "Product",
+    "officeLocation": "Mountain View, CA",
+    "employmentType": "Full-Time",
+    "startDate": "2022-04-18",
+    "manager": "Rachel Lee",
+    "skipManager": "Kevin Moore",
+    "status": "Active",
+    "hireDate": "2022-04-18",
+    "skills": ["Agile", "Roadmapping", "Stakeholder Management", "JIRA"]
+  }
+]
