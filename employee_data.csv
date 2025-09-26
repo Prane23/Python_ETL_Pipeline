@@ -1,2 +1,7 @@
-EmployeeId,FirstName,LastName,Email,JobTitle,Department,EmploymentType
-EMP12345,Prashant,Rane,prashant.rane@hotmail.com,Software Engineer,Engineering,Full-Time
+EmployeeId,FirstName,LastName,Email,JobTitle,Department,EmploymentType,Status,SkipManager,HireDate
+EMP12345,Prashant,Rane,prashant.rane@hotmail.com,Software Engineer,Engineering,Full-Time,Active,John Smith,2022-06-15
+EMP12346,John,Smith,john.smith@example.com,Frontend Developer,Engineering,Full-Time,Active,Robert White,2021-03-01
+EMP12347,Emily,Johnson,emily.johnson@example.com,Data Analyst,Analytics,Full-Time,Active,Susan Clark,2020-08-10
+EMP12348,Michael,Brown,michael.brown@example.com,DevOps Engineer,Infrastructure,Full-Time,Active,Linda Scott,2019-11-20
+EMP12349,Sarah,Davis,sarah.davis@example.com,HR Specialist,Human Resources,Part-Time,Active,George King,2023-01-05
+EMP12350,David,Wilson,david.wilson@example.com,Product Manager,Product,Full-Time,Active,Kevin Moore,2022-04-18
