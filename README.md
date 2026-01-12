@@ -1,46 +1,47 @@
-## 📦 Python ETL Pipeline
-This repository contains a simple Python-based ETL (Extract, Transform, Load) pipeline that demonstrates how to extract data from an API and export it to a CSV file.
+# 🛠 Python ETL Pipeline
 
-## 📄 Script: api_to_csv_export.py
-This script performs the following tasks:
+This repository demonstrates a simple **ETL (Extract, Transform, Load)** pipeline in Python. It extracts data from an API, transforms it using `pandas`, 
+and loads it into a CSV file for analysis and Integration.
 
-Extracts data from a public or private API.
-Transforms the data into a structured format.
-Loads the data into a CSV file for further analysis or storage.
+## 🚀 **Features**
+- **Extract**: Fetch JSON data from an API using `requests`
+- **Transform**: Clean and structure data using `pandas`
+- **Load**: Save transformed data into a CSV file
+- Modular design for easy customization and scalability
 
 ## 🚀 Getting Started
-✅ Prerequisites
-Make sure you have Python 3.7+ installed. You’ll also need the following libraries:
+## ✅ **Prerequisites**
+- Python **3.7+**
+- Install required libraries
+- pip install requests pandas
 
+## ▶️ Usage
+Run the ETL pipeline:
+  python main.py
+Modify:
+  API endpoint in api_client.py
+  Transformation logic in transform.py
+  Output file path in load() function
 
+## 🧩 How It Works
+Extract: Fetch data from API using extract() in api_client.py
+Transform: Convert JSON to DataFrame and clean data using transform() in transform.py
+Load: Save DataFrame to CSV using load() in transform.py
 
-
-Shell
-pip install requests pandas
-
-## 📂 Usage
-Run the script using:
-
-
-
-
-Shell
-python api_to_csv_export.py
-
-You can modify the API endpoint and output file path inside the script as needed.
-
+## 📂 **Project Structure**
+```
+Python_ETL_Pipeline/
+│
+├── api_client.py           # Extract logic
+├── transform.py            # Transform & Load logic
+├── main.py                 # ETL orchestration
+└── data/                   # Output CSV files
+```
 ## 🧠 Features
 Simple and clean ETL structure
 Easy to customize for different APIs
 Outputs data in CSV format
 Uses requests for API calls and pandas for data handling
 
-## 📁 Folder Structure
-```
-Python_ETL_Pipeline/
-│
-├── api_to_csv_export.py   # Main ETL script
-└── data/                  # Folder for storing exported CSV files
-```
 ## 🙌 Contributing
 Feel free to fork the repo and submit pull requests for improvements or new features.
