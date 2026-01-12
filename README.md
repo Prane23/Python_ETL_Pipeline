@@ -4,6 +4,8 @@ This repository demonstrates a simple **ETL (Extract, Transform, Load)** pipelin
 and loads it into a CSV file for analysis and Integration.
 
 ## 🚀 **Features**
+  - Simple and clean ETL structure
+  - Easy to customize for different APIs
 - **Extract**: Fetch JSON data from an API using `requests`
 - **Transform**: Clean and structure data using `pandas`
 - **Load**: Save transformed data into a CSV file
@@ -37,11 +39,5 @@ Python_ETL_Pipeline/
 ├── main.py                 # ETL orchestration
 └── data/                   # Output CSV files
 ```
-## 🧠 Features
-Simple and clean ETL structure
-Easy to customize for different APIs
-Outputs data in CSV format
-Uses requests for API calls and pandas for data handling
-
 ## 🙌 Contributing
 Feel free to fork the repo and submit pull requests for improvements or new features.
