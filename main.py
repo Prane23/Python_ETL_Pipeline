@@ -1,5 +1,4 @@
-import requests as requests
-from api_client import extract  # 
+from api_client import extract  
 from transform import transform , load
 from pandas import json_normalize
 
