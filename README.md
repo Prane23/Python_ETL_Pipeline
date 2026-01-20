@@ -41,3 +41,7 @@ Python_ETL_Pipeline/
 ```
 ## 🙌 Contributing
 Feel free to fork the repo and submit pull requests for improvements or new features.
+
+## 🙌 Author
+**Prashant**  
+Python | Data Engineering | ETL
