@@ -10,13 +10,13 @@ and loads it into a CSV file for analysis and Integration.
 - **Transform**: Clean and structure data using `pandas`
 - **Load**: Save transformed data into a CSV file
 - Modular design for easy customization and scalability
-
+---
 ## 🚀 Getting Started
 ## ✅ **Prerequisites**
 - Python **3.7+**
 - Install required libraries
 - pip install requests pandas
-
+---
 ## ▶️ Usage
 Run the ETL pipeline:
   python main.py
